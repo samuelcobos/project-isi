@@ -27,7 +27,7 @@ public class App
 
 	public static void main(String[] args) throws 
 	ClassNotFoundException, SQLException {
-		//port(getHerokuAssignedPort());
+		port(getHerokuAssignedPort());
 		
 		examenDao examenDao = new examenDao();
 		alumnoDao alumnoDao = new alumnoDao();

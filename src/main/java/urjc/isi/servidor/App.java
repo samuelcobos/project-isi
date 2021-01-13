@@ -49,6 +49,11 @@ public class App
 			return result;
 		});
 		
+		get("/", (req, res) -> {
+			String result = "<p>HOLA</p>\n";
+			return result;
+		});
+		
 		post("/alumno", (req, res) -> {
 			
 			String result = req.queryParams("nombre")+ " " +

@@ -75,7 +75,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 <appName>myapp-TU_NOMBRE_DE_USUARIO</appName>
 <processTypes>
 <!-- Tell Heroku how to launch your application -->
-<web>java -cp ./target/myapp-1.0-jar-with-dependencies.jar urjc.isi.myapp.Main</web>
+<web>java -cp ./target/myapp-1.0-jar-with-dependencies.jar urjc.isi.servidor.App</web>
 </processTypes>
 </configuration>
 </plugin>
